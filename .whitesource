@@ -6,7 +6,8 @@
     "baseBranches": []
   },
   "scanSettingsSAST": {
-    "enableScan": true
+    "enableScan": true,
+    "incrementalScan": true
   },
   "checkRunSettings": {
     "vulnerableCheckRunConclusionLevel": "failure",
