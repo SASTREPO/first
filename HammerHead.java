@@ -57,6 +57,6 @@ public class HammerHead {
     @RequestMapping(path = "/attack", method = {RequestMethod.GET, RequestMethod.POST})
     public ModelAndView attack(Authentication authentication, HttpServletRequest request, HttpServletResponse response) {
         return new ModelAndView("redirect:" + "start.mvc" + course.getFirstLesson().getLink());
-        
+        test
     }
 }
