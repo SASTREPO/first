@@ -5,25 +5,27 @@
     "projectToken": "",
     "baseBranches": []
   },
-  "scanSettingsSAST": {
-    "enableScan": true,
-    "incrementalScan": true
-  },
   "checkRunSettings": {
-    "vulnerableCheckRunConclusionLevel": "failure",
+    "vulnerableCheckRunConclusionLevel": "none",
     "displayMode": "diff",
     "useMendCheckNames": true
   },
   "issueSettings": {
-    "minSeverityLevel": "LOW",
+    "minSeverityLevel": "NONE",
     "issueType": "DEPENDENCY"
   },
   "remediateSettings": {
     "workflowRules": {
-      "enabled": true
+      "enabled": false
     }
+  },
+  "scanSettingsSAST": {
+    "enableScan": "true"
+  },
+  "checkRunSettingsSAST": {
+    "checkRunConclusionLevel": "success",
+    "severityThreshold": "medium"
   }
 }
-
 
 
